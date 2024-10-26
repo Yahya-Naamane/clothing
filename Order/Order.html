@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store Order Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: grey; height: 100vh">
+    <div class="container my-4">
+        <div class="my-4">
+            <h1 class=" text-warning text-center text-white">1510 Brand - T-shirts</h1>
+            <div class="d-flex justify-content-center">
+                <a href="../index.html" class="text-decoration-none text-white">Home</a><p class="fw-bold text-white">\</p>
+                <a href="#" class="text-decoration-none text-white">Order</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <form class="mt-4" method="get">
+            <h2>Order Form</h2>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="size">Select Hoodies</label>
+                    <select class="form-control" id="size">
+                        <option> Nothing</option>
+                        <option>Hoodies 1</option>
+                        <option>Hoodies 2</option>
+                        <option>Hoodies 3</option>
+                        <option>Hoodies 4</option>
+                        <option>Hoodies 5</option>
+                        <option>Hoodies 6</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="size">Select T-shirt</label>
+                    <select class="form-control" id="size">
+                        <option> Nothing</option>
+                        <option>T-shirt 1</option>
+                        <option>T-shirt 2</option>
+                        <option>T-shirt 3</option>
+                        <option>T-shirt 4</option>
+                        <option>T-shirt 5</option>
+                        <option>T-shirt 6</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="size">Select Sweatshirts</label>
+                    <select class="form-control" id="size">
+                        <option> Nothing</option>
+                        <option>Sweatshirts 1</option>
+                        <option>Sweatshirts 2</option>
+                        <option>Sweatshirts 3</option>
+                        <option>Sweatshirts 4</option>
+                        <option>Sweatshirts 5</option>
+                        <option>Sweatshirts 6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="size">Size</label>
+                    <select class="form-control" id="size">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Extra Large</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="color">Color</label>
+                    <select class="form-control" id="color">
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" class="form-control" id="quantity" min="1" max="10" value="1">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="customerName">Full Name</label>
+                <input type="text" class="form-control" id="customerName" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="address">Shipping Address</label>
+                <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </form>
+    </div>
+</body>
+</html>
